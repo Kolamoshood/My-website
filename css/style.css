@@ -1,0 +1,112 @@
+/* Frond end page styling*/
+/*By Moshood Yahaya*/
+
+/*Generate page styling*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, Sans-serif;
+    background: #04032f;
+}
+.wrapper{
+    width: 100%;
+    margin:auto;
+    padding: 1%;
+}
+/*header CSS*/
+.nav-bar{
+    padding: 2%;
+    margin-top: 0;
+}
+.nav-bar .logo{
+    color:#dcdde1;
+    text-align:left;
+
+}
+.nav-bar ul{
+    text-align:right;
+    list-style: none;
+    
+}
+.nav-bar ul li{
+    display: inline;
+    color:#dcdde1;
+    padding: auto;
+}
+.nav-bar ul .resume{
+    margin-top:5%;
+    padding: 2% 3%;
+    border:solid 2px;
+    width:fit-content;
+}
+.nav-bar ul .unique{
+    color:aqua;
+    float:left;
+    
+}
+
+.nav-bar ul a{
+    color:#dcdde1;
+    text-decoration: none;
+}
+.nav-bar ul a:hover{
+    color:#e1b12c;
+    /* text-decoration: none; */
+}
+
+/*main content css*/
+
+.main-content{
+    width:80%;
+    margin:auto;
+}
+.main-content .hi{
+    margin: 13% 0 0 0;
+    color:#e1b12c;
+}
+.main-content h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2% 0;
+    color:#dcdde1; 
+    font-size:8ex;
+}
+.main-content h2{
+    color:#747d8c;
+    font-size: 7ex;
+    padding: 0 0 2% 0;
+}
+.main-content .skill{
+    color:#747d8c;
+    padding:0.3em;
+}
+.border-1{
+    margin-top:2%;
+    padding: 1% 2%;
+    border:solid 2px;
+    width:fit-content;
+
+}
+.socials{
+    padding:2%;
+}
+.socials ul{
+    list-style: none;
+}
+.socials ul li{
+    padding: 1%;
+}
+.footer{
+    color:#dcdde1;
+    text-align: center;
+}
+.footer a{
+    color:#e1b12c;
+    text-decoration: none;
+}
+
+/*general style for spans*/
+
+.color{
+    color:#e1b12c;
+}
